@@ -9,11 +9,11 @@ these guidelines by updating this file and submitting a pull request.
 -   [I have a feature request...](#have-a-feature-request)
 -   [I have a contribution to share...](#have-a-contribution)
 
-## Have a question?
+<h2 id="have-a-question">Have a question?</h2>
 
 Ask your question in the team's Whatsapp group chat.
 
-## Found a bug or style-related issue?
+<h2 id="found-a-bug">Found a bug or style-related issue?</h2>
 
 1. Check if the [issues tab](https://github.com/THE-CBS-TEAM/Frontend_teamtask/issues) to see if it has already been reported, or fixed.
 
@@ -26,12 +26,12 @@ Ask your question in the team's Whatsapp group chat.
 
 </div>
 
-## Have a feature request?
+<h2 id="have-a-feature-request">Have a feature request?</h2>
 
 All feature requests should be sent in a message to the team's Whatsapp group chat. This message should include the feature with all the necessary information. After doing this, [an issue can be submitted](https://github.com/THE-CBS-TEAM/Frontend_teamtask/issues/new) documenting the proposed feature.
 
 
-## Have a contribution to make?
+<h2 id="have-a-contribution">Have a contribution to make?</h2>
 
 1. [Fork](https://help.github.com/articles/fork-a-repo) the [current repository](https://github.com/THE-CBS-TEAM/Frontend_teamtask).
 
