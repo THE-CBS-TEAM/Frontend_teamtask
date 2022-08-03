@@ -1,0 +1,164 @@
+/* GENERAL STYLING */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bellefair', serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-image: url(background-home-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #D0D6F9;
+}
+
+/* MEDIA QUERY FOR MOBILE */
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5em;
+    width: 80%;
+    max-width: 1000px;
+    height: 100vh;
+}
+
+.travel_text{
+    text-align: center;
+}
+
+#para1{
+    font-size: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2.7px;
+    text-transform:uppercase;
+    
+}
+
+#space{
+    font-size: 5rem;
+    color: #FFFFFF;
+    text-transform:uppercase;
+}
+
+#para2{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: .7px;
+}
+
+.xplore{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    /* margin-top:70px; */
+}
+
+.xplore_text{
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xplore_text h3{
+    font-size: 1.25rem;
+    color: #0B0D17;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+}
+
+
+/* MEDIA QUERY FOR TABLET */
+@media (min-width:768px) {
+
+    body{
+        background-image: url(background-home-tablet.jpg);
+    }
+    #space{
+        font-size: 9.375rem;
+    }
+
+    #para1{
+        letter-spacing: 3.375px;  
+    }
+
+    #para2{
+        line-height: 28px;
+        letter-spacing: 2.9px;
+        padding: 0 4em;
+    }
+    .xplore{
+        margin-top: 80px;
+    }
+
+    .xplore_text{
+        border-radius: 100px;
+        text-align: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+    }
+
+    .xplore_text h3{
+        font-size: 2rem;
+    }
+}
+/* MEDIA QUERY FOR DESKTOP */
+@media (min-width:1200px) {
+    body{
+        background-image: url(background-home-desktop.jpg);
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .travel,.xplore{
+        width: 50%;
+    }
+
+    .travel, .xplore{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .travel_text{
+        text-align: left;
+    }
+
+    #para1{
+        font-size: 1.75rem;
+        letter-spacing:4.72 px;
+    }
+
+    #para2{
+        padding: 0;
+        font-size: 1.125rem;
+        line-height: 32px;
+    }
+
+    .xplore{
+        display: flex;
+        justify-content:flex-end;
+    }
+
+    .xplore_text{
+        border-radius: 100px;
+        width: 280px;
+        height: 280px;
+        border-radius: 100%;
+    }
+}

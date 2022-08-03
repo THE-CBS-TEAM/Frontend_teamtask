@@ -72,7 +72,7 @@ All feature requests should be sent in a message to the team's Whatsapp group ch
 6. Sync your fork with the upstream repository.
 
     ```
-    git fetch upstream
+    
     ...
 
     git merge upstream/main
